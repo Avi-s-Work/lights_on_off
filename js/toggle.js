@@ -3,4 +3,5 @@ const light = document.getElementById("light");
 
 toggle.onclick = function () {
   toggle.classList.toggle("active");
+  light.classList.toggle("active");
 };
